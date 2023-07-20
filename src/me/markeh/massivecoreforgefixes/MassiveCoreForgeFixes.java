@@ -55,7 +55,7 @@ public class MassiveCoreForgeFixes extends JavaPlugin {
 		}
 		
 		// Store plugin versions
-		this.factionsVersion = this.getServer().getPluginManager().getPlugin("Factions").getDescription().getVersion();
+		this.factionsVersion = this.getServer().getPluginManager().getPlugin("UnderPays-Factions").getDescription().getVersion();
 		this.massivecoreVersion = this.getServer().getPluginManager().getPlugin(this.massivecorePluginName).getDescription().getVersion();
 		
 		// Enable fixes
@@ -81,7 +81,7 @@ public class MassiveCoreForgeFixes extends JavaPlugin {
 	public final void enableFixes() {
 		this.getServer().getPluginManager().registerEvents(MCFFEvents.get(), this);
 		
-		if (this.getServer().getPluginManager().isPluginEnabled("Factions")) {
+		if (this.getServer().getPluginManager().isPluginEnabled("UnderPays-Factions")) {
 			FactionsFixes.get().enable();
 		}
 	}

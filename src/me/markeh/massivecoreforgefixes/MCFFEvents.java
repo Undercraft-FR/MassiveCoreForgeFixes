@@ -49,8 +49,6 @@ public class MCFFEvents implements Listener {
 				// Now run setSenderReferencesSoon
 				try {
 					Class.forName("com.massivecraft.massivecore.engine.EngineMassiveCoreDatabase");
-					
-					com.massivecraft.massivecore.engine.EngineMassiveCoreDatabase.setSenderReferencesSoon(player, null);
 				} catch (Exception e) {
 					
 					// Probably using an older version
@@ -60,7 +58,6 @@ public class MCFFEvents implements Listener {
 							.invoke(this, player);
 						
 					} catch (Exception e2) {
-						MassiveCoreForgeFixes.get().detailedPrint(e);
 						MassiveCoreForgeFixes.get().detailedPrint(e2);
 					}
 				}

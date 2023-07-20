@@ -1,6 +1,6 @@
 main: me.markeh.massivecoreforgefixes.MassiveCoreForgeFixes
-name: MassiveCoreForgeFixes
+name: UnderPaysForgeFixe
 version: 1.3.0
 authors: [ MarkehMe ]
-description: Allows MassiveCore and MassiveCore plugins to work with Forge/KCauldron/Cauldron
-softdepend: [ MassiveCore, Factions ]
+description: Allows MassiveCore and MassiveCore plugins to work with Crucible
+softdepend: [ MassiveCore, UnderPays-Factions ]

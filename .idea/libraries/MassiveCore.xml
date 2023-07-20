@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MassiveCore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ressources/dep/MassiveCore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
