@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Factions">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Undercraft/Pays-Factions/out/artifacts/UnderPays_jar/Factions.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

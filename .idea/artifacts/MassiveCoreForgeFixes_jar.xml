@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MassiveCoreForgeFixes:jar">
-    <output-path>$USER_HOME$/Downloads</output-path>
-    <root id="archive" name="MassiveCoreForgeFixes.jar">
-      <element id="module-output" name="MassiveCoreForgeFixes" />
-    </root>
-  </artifact>
-</component>

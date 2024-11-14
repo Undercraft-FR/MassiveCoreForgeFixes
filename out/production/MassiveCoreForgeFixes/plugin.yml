@@ -1,6 +1,0 @@
-main: me.markeh.massivecoreforgefixes.MassiveCoreForgeFixes
-name: UnderPaysForgeFixe
-version: 1.3.0
-authors: [ MarkehMe ]
-description: Allows MassiveCore and MassiveCore plugins to work with Crucible
-softdepend: [ MassiveCore, UnderPays-Factions ]

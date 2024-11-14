@@ -12,3 +12,8 @@
 hs_err_pid*
 /bin/
 /bin1/
+
+.idea
+*.iml
+*.ipr
+out
